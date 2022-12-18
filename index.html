@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mozkiprod2022</title>
+    <title>mozkiprod</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/icon.svg" sizes="any" type="image/svg+xml">
 
     <link
       href="https://fonts.googleapis.com/css?family=ABeeZee"
@@ -22,7 +23,7 @@
   </head>
   <body>
     <header>
-      <div id="navigation">
+      <!-- <div id="navigation">
         <nav>
           <input id="nav-toggle" type="checkbox" />
           <ul class="links">
@@ -31,11 +32,11 @@
               <a href="#intro">Home</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#projects">Projects<sub> (soon)</sub></a>
             </li>
-            <!-- <li>
+            <li>
               <a href="#services">Tools</a>
-            </li> -->
+            </li> 
           </ul>
           <label for="nav-toggle" class="icon-burger">
             <div class="line"></div>
@@ -43,7 +44,7 @@
             <div class="line"></div>
           </label>
         </nav>
-      </div>
+      </div> -->
         <!-- <div class="theme-switch-wrapper">
           <label class="theme-switch" for="checkbox">
        <input type="checkbox" id="checkbox" />
@@ -55,41 +56,45 @@
     <main>
       <section id="intro" class="bigbloc">
         <div class="bloc">
-          <h4>WELCOME ! - LEARN ABOUT ME -</h5><br>
-          <br /><br /><br>
+          <div style="display: flex; justify-content: center;">
+          <img style="border-radius: 50%; width: 100px; height: 100px; margin: 0 50px;" id="logo" src="images/LogoMozkidev2.png" alt="" />
+          <h2 style="margin: auto 50px; text-align: justify;">- HEY ! <br><br><br> YOU'RE WELCOME ! -</h2><br>
+            <!-- <img src="images/Welcome2.png" alt="Computer man" style="width:250px;height:150px;"> -->
+
+          </div>
+          <br /><br /><br><br><br><br>
           <h1>I AM A FREELANCE VIDEO EDITOR / DESIGNER</h1>
-          <br /><br /><br><br>
+          <br /><br /><br><br><br><br><br>
           <p>
             With my creative ideas, you can uplift your business, corporation or
             company.
           </p>
-          <br /><br><br><br>
+          <br /><br><br><br><br><br><br>
           <p>
             I can edit any project you want. I give professional services and
             awesome output.
           </p>
-          <br /><br /><br><br>
+          <br /><br /><br><br><br><br><br>
           <div id="reseaux">
             <a href="https://twitter.com/mozkiprod" target="_blank"><img class="media" id="twitter" src="images/twitter.png" alt="" /></a>
             <img class="media" id="fiverr" src="images/fiverr.png" alt="" />
             <a href="https://www.youtube.com/channel/UCXDO-yXO19iti4TWBcnpw6g" target="_blank"><img class="media" id="youtube" src="images/youtube.png" alt="" /></a>
+            <!-- <a href="https://www.instagram.com" target="_blank"><img class="media" id="instagram" src="images/instagram.png" alt="" /></a> -->
           </div>
 
         </div>
-        <div class="bloc" id="blocimg">
+        <!-- <div class="bloc" id="blocimg">
           <img src="images/a.png" alt="">
-        </div>
+        </div> -->
       </section>
 
       <!-- TOOLS  -->
 
       <!-- <section id="services">
-
         <div class="bloc" id="bloc1">
           <h2 style="text-align: center; margin: auto;">TOOLS I USE .</h2> <br>
           <img id="fleche" src="images/fleche.png" alt="">
         </div>
-
         <div class="bloc" id="bloc2">
           <div class="sousbloc" id="bloc21">
             <img src="images/premierepro.png" alt="">
@@ -104,11 +109,8 @@
               <p>Créez des effets visuels spectaculaires.</p>
             </div>
             <img src="images/aftereffects.png" alt="">
-
           </div>
         </div>
-
-
       </section> -->
 
       <!-- --- -->
@@ -170,17 +172,26 @@
 
     </main>
     <footer>
-      <div>
-        <a href="https://www.buymeacoffee.com/mozkiprod" target="_blank">
+      <h4 style="font-size: 2rem;">
+        GET IN TOUCH.
+      </h4> <br><br>
+      <div style="border: 6px solid white; padding: 2% 4%; width: 60%; margin: 0 auto; border-radius: 1%;">
+        <h3 style="margin: 5% auto; font-size: 2rem;">Want to work together or have any questions ?</h3>
+        <a href="mailto:mozkidev@gmail.com" target="_blank">
+          <button id="sayhello" style="color: white; font-weight: bold; font-size: 1.5rem; padding-bottom: 18px;" class="button button1">Say Hello &#128075</button>
+        </a>
+        <h3 style="margin: 5% auto; font-size: 2rem;">Donation</h3>
+        <!-- <a href="https://www.buymeacoffee.com/mozkiprod" target="_blank"> -->
+          <a href="https://www.buymeacoffee.com/mozkiprod" target="_blank">
           <img id="bmac" src="images/buymeacoffee.png" alt="">
         </a>
       </div> <br><br><br><br>
       <div>
-        <p>©2022 Designed by Mozki .</p>
+        <p style="color: white;">©2022 Designed by Mozki</p>
       </div>
-      <a href="#" class="gotopbtn">
+      <!-- <a href="#" class="gotopbtn">
         <ion-icon name="arrow-up-outline"></ion-icon>
-      </a>
+      </a> -->
       </div>
     </footer>
     <script src="script.js"></script>
