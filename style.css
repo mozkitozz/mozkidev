@@ -1,31 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@1,100&family=Amatic+SC&family=Anton&family=Bangers&family=Outfit:wght@400;700&family=Roboto:ital,wght@1,100&family=Teko&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald&display=swap');
 
 * {
   margin: 0;
   padding: 0;
 }
 
-/* Navigation */
-
 html {
   scroll-behavior: smooth;
 }
 
-body {
-  padding: 0;
-  margin: 0;
-  /* background: url("images/fond1.jpg"); */
-}
+/* INTRO */
 
 #intro {
-  /* background-color: #1B2430; */
   color: white;
-  /* background: url("images/fond1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; */
-}
-
-#intro {
   margin: 0 auto;
   padding: 10% 5%;
   text-align: center;
@@ -38,6 +25,11 @@ body {
   font-weight: bolder;
   font-size: 3rem;
   /* text-shadow: 0 0 0.1em #000, 0 0 0.1em #000, 0 0 0.1em #000; */
+}
+
+#intro h2{
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
 }
 
 #intro h3 {
@@ -57,14 +49,58 @@ body {
   margin: 10% auto;
 }
 
-.media {
-  width: 60px;
-  border-radius: 50%;
-  margin: 0 15px;
+#top {
+  display: flex; 
+  justify-content: center;
 }
 
-.media a:hover {
-  color: #000;
+#top h2 {
+  margin: auto 80px; 
+  text-align: justify;
+}
+
+#logo {
+  border-radius: 50%; 
+  width: 100px; 
+  height: 100px; 
+  margin: 0 80px;
+}
+
+.media {
+  border-radius: 50%;
+  margin: 0 15px;
+  box-sizing: border-box;
+
+}
+
+.media:hover {
+  border: 4px solid white;
+}
+
+#twitter {
+  width: 70px;
+  height: 70px;
+}
+#twitter:hover {
+  border-bottom: 5px solid rgb(53, 106, 230);
+}
+
+#fiverr {
+  width: 70px;
+  height: 70px;
+}
+
+#fiverr:hover {
+  border-bottom: 5px solid green;
+}
+
+#youtube {
+  width: 70px;
+  height: 70px;
+}
+
+#youtube:hover {
+  border-bottom: 5px solid red;
 }
 
 h1 {
@@ -76,12 +112,10 @@ h2 {
   font-size: 1.5rem;
 }
 
-#contact {
-  border: 1px solid black;
-  padding: 10% 0;
-}
+/* BAS DE PAGE  */
 
 footer {
+  /* position: absolute; */
   padding: 40px;
   text-align: center;
   text-decoration: none;
@@ -89,9 +123,33 @@ footer {
   background: url("images/fond1.jpg");
 }
 
+footer h2 {
+  margin: 4% auto;
+  font-size: 2rem;
+}
+
 footer a {
   color: inherit;
   text-decoration: none;
+}
+
+footer #contact {
+  border: 4px solid white; 
+  padding: 2% 4%; width: 60%; 
+  margin: 0 auto; 
+  border-radius: 1%;
+}
+
+#contact h3 {
+  margin: 5% auto; 
+  font-size: 2rem;
+}
+
+#contact button {
+  color: white; 
+  font-weight: bold; 
+  font-size: 1.5rem; 
+  padding-bottom: 18px;
 }
 
 footer img {
@@ -100,17 +158,16 @@ footer img {
 
 footer #bmac {
   width: 200px;
-  height: auto;
+  height: 60px;
 }
 
 footer #sayhello:hover {
-  color: black;
+  color: rgb(255, 255, 255);
   background-color: #eb455f;
   border: black;
 }
 
 .button {
-  border: none;
   color: white;
   padding: 14px 30px;
   text-align: center;
@@ -123,19 +180,12 @@ footer #sayhello:hover {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-}
 
-.button1 {
   background-color: #6d67e4;
   color: black;
 }
 
-/* .button1:hover {
-  background-color: #4CAF50;
-  color: white;
-} */
-
-.gotopbtn {
+/* .gotopbtn {
   position: fixed;
   width: 50px;
   height: 50px;
@@ -148,7 +198,8 @@ footer #sayhello:hover {
   color: rgb(255, 255, 255);
   font-size: 32px;
   border-radius: 50%;
-}
+} */
+
 
 /* Responsive */
 
