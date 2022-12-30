@@ -7,14 +7,18 @@
     <title>mozkiprod</title>
     <meta name="description" content="mozkiprod website">
     <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   </head>
   <body>
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
     <main>
       <section id="intro" class="bigbloc">
         <div class="bloc">
           <div id="top">
             <img id="logo" src="images/LogoMozkidev2.png" alt="logo" />
-            <h2>- HEY ! &nbsp; YOU'RE WELCOME ! -</h2>
+            <h2>HEY ! YOU'RE WELCOME !</h2>
           </div> 
           <div>
             <h1>I AM A FREELANCE VIDEO EDITOR</h1>
@@ -53,5 +57,16 @@
       </div>
       </div>
     </footer>
+    <script>
+
+$(function() {
+  $(window).on("load", function() {
+    $('#preloader').fadeOut('slow', function() {
+      $(this).remove();
+    });
+  });
+});
+
+    </script>
   </body>
 </html>
